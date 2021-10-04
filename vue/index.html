@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/e3ae05b8e6.js"></script>
+  <title>TODOLIST</title>
+</head>
+
+<body>
+  <div class="main">
+    <h1 class="todo-title">TODO LIST</h1>
+    <div class="todo-app">
+      <div class="todo-creat">
+        <creat-task></creat-task>
+        <span class="errMsg"></span>
+      </div>
+      <div class="todo-search">
+        <i class="fa fa-search searchBox__icon"></i>
+        <input type="text" class="todo-search--input" placeholder="SEARCH TODO">
+      </div>
+      <ul class="todo-list">
+        <li class="todo-list--item">
+          <i class="fa fa-circle-thin icon-check fa-1x"></i>
+          <span class="todo-list--task">SAMPLE</span>
+          <input type="text" class="todo-list--edit">
+          <i class="fa fa-trash icon-trash fa-1x"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <script src="dist/js/bandle.js"></script>
+</body>
+
+</html>

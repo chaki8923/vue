@@ -1,0 +1,98 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  background-color: rgb(249, 243, 223)
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+}
+
+.todo-title{
+  width: 100%;
+  text-align: center;
+  color: rgb(244, 209, 155);
+  margin-top: 240px;
+}
+
+.todo-app{
+  width: 640px;
+  height: auto;
+  margin: 30px auto;
+  background-color: rgb(253, 252, 229);
+  padding: 32px 16px;
+  box-shadow: 15px 30px 30px rgba(0,0,0,.2);
+}
+
+.todo-creat{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.todo-creat--input
+{
+  width: 100%;
+  padding: 12px;
+}
+
+.todo-search{
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.todo-search--input{
+  width: 90%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+
+}
+
+.todo-list{
+  list-style: none;
+  width: 100%;
+}
+
+.todo-list--item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  height: 40px;
+}
+
+.todo-list--task{
+  display: block;
+  width: 90%;
+}
+.todo-list--edit{
+  display: block;
+  width: 90%;
+  display: none;
+}
+
+.icon-check{
+  margin-left: 10px;
+  cursor: pointer;
+  color: rgb(215, 233, 247);
+}
+.icon-trash{
+  margin-right: 10px;
+  cursor: pointer;
+  color: rgb(244, 209, 155);
+}
